@@ -11,7 +11,7 @@ class ApplicationContextRunnerRuntimeHints implements RuntimeHintsRegistrar {
 
     @Override
     public void registerHints(RuntimeHints hints, ClassLoader classLoader) {
-        springRegisterHints(hints,classLoader);
+        //springRegisterHints(hints,classLoader);
         applicationRegisterHints(hints,classLoader);
     }
 
